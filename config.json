@@ -1,0 +1,9 @@
+{
+"account" : "ac91255.ap-northeast-2.aws",
+"user" : "TANMAYNEMADE",
+"password" : "Tempsnow1!",
+"role" : "ACCOUNTADMIN",
+"database" : "UTIL_DB",
+"schema" : "PUBLIC",
+"warehouse" : "COMPUTE_WH"
+}
