@@ -42,5 +42,5 @@ conn = {                            "account": sfAccount,
 # # Step 3 Create a session using the connection parameters
 session = Session.builder.configs(conn).create()
 
-dataframe1 = session.sql('select * from garden_plants.veggies.root_depth; ').collect()
+dataframe1 = session.sql("select 'connection successful';").collect()
 st.table(dataframe1)
